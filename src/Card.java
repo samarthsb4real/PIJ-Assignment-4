@@ -1,9 +1,3 @@
-/**
- * Name: Samarth Sandesh Bhadane
- * PRN: 123456789
- * Batch: A
- */
-
  public class Card {
     private String suit;
     private String rank;
