@@ -13,4 +13,13 @@
         this.suit = suit;
         this.rank = rank;
     }
+
+    // Getters for Suit and Rank
+    public String getSuit() {
+        return suit;
+    }
+
+    public String getRank() {
+        return rank;
+    }
 }
