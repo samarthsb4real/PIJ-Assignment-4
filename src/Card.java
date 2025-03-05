@@ -32,4 +32,9 @@
     public boolean sameCard(Card other) {
         return this.suit.equals(other.suit);
     }
+
+    // Check if two cards have the same rank
+    public boolean compareCard(Card other) {
+        return this.rank.equals(other.rank);
+    }
 }
