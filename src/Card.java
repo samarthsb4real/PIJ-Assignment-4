@@ -37,4 +37,9 @@
     public boolean compareCard(Card other) {
         return this.rank.equals(other.rank);
     }
+
+    // Check if a given card matches this card
+    public boolean isEqual(Card other) {
+        return this.suit.equals(other.suit) && this.rank.equals(other.rank);
+    }
 }
