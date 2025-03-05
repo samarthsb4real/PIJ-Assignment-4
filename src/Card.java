@@ -27,4 +27,9 @@
     public void printCard() {
         System.out.println(rank + " of " + suit);
     }
+
+    // Check if two cards belong to the same suit
+    public boolean sameCard(Card other) {
+        return this.suit.equals(other.suit);
+    }
 }
