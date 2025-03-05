@@ -22,4 +22,9 @@
     public String getRank() {
         return rank;
     }
+
+    // Print the card details
+    public void printCard() {
+        System.out.println(rank + " of " + suit);
+    }
 }
