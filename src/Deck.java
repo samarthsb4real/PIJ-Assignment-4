@@ -11,4 +11,14 @@ public class Deck {
     public Deck() {
         createDeck();
     }
+
+    // Method to create deck
+    public void createDeck() {
+        deck = new ArrayList<>();
+        for (String suit : suits) {
+            for (String rank : ranks) {
+                deck.add(new Card(suit, rank));
+            }
+        }
+    }
 }
