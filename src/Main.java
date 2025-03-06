@@ -23,6 +23,7 @@ public class Main {
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
 
+            switch (choice) {
                 case 1:
                     deck.printDeck();
                     break;
@@ -51,5 +52,5 @@ public class Main {
                     System.out.println("Invalid choice! Try again.");
             }
         }
-    
+    }
 }
