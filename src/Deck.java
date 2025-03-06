@@ -34,4 +34,17 @@ public class Deck {
         Collections.shuffle(deck);
         System.out.println("Deck shuffled successfully!");
     }
+
+    // Search for a specific card and return its index position
+    public int findCard(String suit, String rank) {
+        for (int i = 0; i < deck.size(); i++) {
+            Card card = deck.get(i);
+            if (card.getSuit().equalsIgnoreCase(suit) && card.getRank().equalsIgnoreCase(rank)) {
+                System.out.println("Card found at index: " + i);
+                return i;
+            }
+        }
+    System.out.println("Card not found.");
+    return -1;
+}
 }
